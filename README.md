@@ -33,7 +33,7 @@ Particle systems in Growtopia's custom `ItemRenderer` XMLs define animated visua
     <Set name="blendingMode">PREMULTIPLIED_ALPHA</Set>
     <Set name="lifeTime">0.9</Set>
   </Particle>
-</ParticleSystem>```
+</ParticleSystem>
 
 ### Emitter Settings
 
