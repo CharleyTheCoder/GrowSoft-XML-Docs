@@ -46,3 +46,13 @@ Contains all the visual and particle effects settings for the item
   </Parameter>
 </SpriteSinPulseAnimation>
 ```
+
+| Attribute       | Description                                |
+|-----------------|--------------------------------------------|
+| `name`          | Name of the animation or pulse effect      |
+| `sprite`        | Reference to the sprite used in animation  |
+| `animTime`      | Duration of the animation in milliseconds |
+| `autoPlay`      | If `true`, the animation plays automatically |
+| `isLoop`        | If `true`, the animation loops             |
+| `period`        | Time period for sine pulse animation      |
+| `scale`         | Scale of the sine pulse                    |
