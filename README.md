@@ -2,7 +2,7 @@
 
 ## Stricture
 
-```
+```xml
 <ItemRenderer item="ITEM_ID_DIRT_AURA">
   <Data>
     <!-- Data section for sprites, animations, and particle systems -->
@@ -11,7 +11,8 @@
   <RenderRules>
     <!-- Render rules for handling particle systems, sprites, and logic -->
   </RenderRules>
-</ItemRenderer>```
+</ItemRenderer>
+```
 
 ## Data Section
 
