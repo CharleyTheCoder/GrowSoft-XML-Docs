@@ -33,7 +33,7 @@ Contains all the visual and particle effects settings for the item
 
 ### Animations
 
-```
+```xml
 <SpriteAnimation name="animationName" sprite="spriteName" animTime="duration">
   <Frame>startFrame,endFrame</Frame>
   <!-- Additional frames here -->
