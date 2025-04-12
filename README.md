@@ -6,6 +6,36 @@ Particle systems in Growtopia's custom `ItemRenderer` XMLs define animated visua
 
 ### Basic Structure
 
+```xml
+<ParticleSystem name="uniqueParticleName">
+  <Emitter>
+    <Set name="offset">0, -16</Set>
+    <Set name="emissionInterval">0.8</Set>
+    <Set name="infParticles">true</Set>
+    <Set name="infLifeTime">true</Set>
+    <Set name="particlesPerEmission">1</Set>
+    <OrbitOffset>
+      <Set name="hasOrbit">true</Set>
+      <Set name="hOrbitPeriod">6000</Set>
+      <Set name="hAmplitude">20</Set>
+      <Set name="vOrbitPeriod">4000</Set>
+      <Set name="vAmplitude">12</Set>
+      <Set name="hTimeOffset">0</Set>
+      <Set name="vTimeOffset">0</Set>
+      <Set name="minScale">0.5</Set>
+      <Set name="maxScale">1</Set>
+    </OrbitOffset>
+  </Emitter>
+  <Particle>
+    <Set name="sprite">spriteName</Set>
+    <Set name="relativeToEmitter">true</Set>
+    <Set name="inSpecificOrder">true</Set>
+    <Set name="blendingMode">PREMULTIPLIED_ALPHA</Set>
+    <Set name="lifeTime">0.9</Set>
+  </Particle>
+</ParticleSystem>
+```
+
 ### Emitter Settings
 
 | Setting               | Description                                 |
