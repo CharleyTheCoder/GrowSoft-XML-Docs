@@ -20,7 +20,7 @@ Contains all the visual and particle effects settings for the item
 
 ### Sprites
 
-```
+```xml
 <Sprite name="spriteName" fileName="filePath" textureSize="textureSize" frame="startFrame,endFrame"/>```
 
 | Attribute       | Description                                |
