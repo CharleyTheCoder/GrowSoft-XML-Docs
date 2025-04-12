@@ -44,4 +44,5 @@ Contains all the visual and particle effects settings for the item
     <Set name="period">2000</Set>
     <Set name="scale">3</Set>
   </Parameter>
-</SpriteSinPulseAnimation>```
+</SpriteSinPulseAnimation>
+```
