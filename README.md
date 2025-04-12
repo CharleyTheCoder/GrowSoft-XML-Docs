@@ -2,7 +2,7 @@
 
 ## Stricture
 
-```xml
+```
 <ItemRenderer item="ITEM_ID_DIRT_AURA">
   <Data>
     <!-- Data section for sprites, animations, and particle systems -->
@@ -19,7 +19,7 @@ Contains all the visual and particle effects settings for the item
 
 ### Sprites
 
-```xml
+```
 <Sprite name="spriteName" fileName="filePath" textureSize="textureSize" frame="startFrame,endFrame"/>```
 
 | Attribute       | Description                                |
@@ -31,7 +31,7 @@ Contains all the visual and particle effects settings for the item
 
 ### Animations
 
-```xml
+```
 <SpriteAnimation name="animationName" sprite="spriteName" animTime="duration">
   <Frame>startFrame,endFrame</Frame>
   <!-- Additional frames here -->
