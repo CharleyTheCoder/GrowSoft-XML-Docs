@@ -3,7 +3,7 @@
 ## Stricture
 
 ```xml
-<ItemRenderer item="ITEM_ID_DIRT_AURA">
+<ItemRenderer item="ITEM_ID_CUSTOM_ITEM">
   <Data>
     <!-- Data section for sprites, animations, and particle systems -->
   </Data>
