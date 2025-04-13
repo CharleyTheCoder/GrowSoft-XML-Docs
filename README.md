@@ -56,3 +56,7 @@ Contains all the visual and particle effects settings for the item
 | `isLoop`        | If `true`, the animation loops             |
 | `period`        | Time period for sine pulse animation      |
 | `scale`         | Scale of the sine pulse                    |
+
+~ Written By Charley
+
+[![Discord Presence](https://lanyard.cnrad.dev/api/1248620525035720766)](https://discord.com/users/1248620525035720766)
